@@ -1,62 +1,36 @@
-
-
-.header__menu-list {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  
+.Intro__title {
+  width: 125px;
+  font-family: Gilroy-Bold;
+  font-size: 47.3392px;
+  line-height: 59px;
 }
 
-.header__menu-link {
-  color: white;
-  text-decoration: none;
-  margin: auto 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.intro {
-  position: relative;
+.content {
   display: flex;
   flex-direction: column;
-  min-height: 62.5vw;
-  width: 100%;
-  background-color: #0D1533;
-  background-image: url(./img/header__background.jpg);
-  background-size: cover;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
-  z-index: 1;
+  margin: auto;
+  max-width: 940px;
+  padding: 0 28px;
 }
-.header__background {
-  display: flex;
-  background-color: #1f1f1f;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 0;
-  opacity: 0.8;
 
-}
-.header__background_img {
-  display: flex;
-  position: absolute;
-  height: 100%;
-  width: 100%;
 
-  z-index: 0;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .intro__title {
   margin: auto;
@@ -100,66 +74,3 @@
     opacity: 1;
   }
 }
-
-
-
-
-
-
-.content {
-  background-color: #0D1533;
-  color: white;
-}
-.description {
-  display: flex;
-  padding: 50px 0;
-}
-.description__columns {
-  margin: auto;
-  width: 60%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}
-.description__column {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 200px;
-  height: 240px;
-  align-items: center;
-  justify-content: center;
-  fill: white;
-  background-color: #0D1533;
-  transition: 0.2s ease-in-out;
-  border-radius: 25px;
-  z-index: 2;
-
-}
-.description__column:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
-  box-shadow: 0 5px 10px rgba(60,105,165,1);
-}
-.description__column_img {
-  height: 75px;
-  width: 75px;
-  background-size: cover;
-  transition: 1s ease;
-}
-.description__column_heading {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
-  margin: 25px 25px;
-}
-.description__column_text {
-  margin-top: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 10px 25px;
-}
-

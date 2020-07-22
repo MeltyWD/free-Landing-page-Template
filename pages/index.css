@@ -1,4 +1,6 @@
 @import url(../vendor/normalize.css);
 
+@import url(../vendor/font/Gilroy.css);
+
 @import url(../block/root/root.css);
 @import url(../block/header/header.css);
