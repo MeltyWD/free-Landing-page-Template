@@ -13,6 +13,9 @@
 </head>
 <body class="root">
   <header class="header">
+    <div class="header__burger">
+      <span class="header__burger-midline"></span>
+    </div>
     <nav class="header__menu">
       <ul class="header__menu-list">
         <li class="header__menu-item"><a class="header__menu-link" href="#">Home</a></li>
@@ -21,15 +24,22 @@
         <li class="header__menu-item"><a class="header__menu-link" href="#">Portfolio</a></li>
         <li class="header__menu-item"><a class="header__menu-link" href="#">Contacts</a></li>
       </ul>
+      <ul class="lang__switch">
+        <li class="lang__switch-item"><a class="lang__switch-link" href="#">RU</a></li>
+        <li class="lang__switch-item lang__switch-item_selected">&nbsp;|&nbsp;</li>
+        <li class="lang__switch-item"><a class="lang__switch-link lang__switch-item_selected" href="#">ENG</a></li>
+      </ul>
     </nav>
   </header>
+  <div class="underline"></div>
   <main class="content">
     <section class="intro">
-      <div>
+      <div class="intro__text-box">
         <h1 class="intro__title">Denis Novik</h1>
+        <p class="intro__text">UX | UI designer
+24 years old, Minsk</p>
       </div>
-      <img class="intro__image" src="./images/Intro/Intro__image.jpg" alt="Изображение интро">
-
+        <img class="intro__image" src="./images/Intro/Intro__image.jpg" alt="Изображение интро">
     </section>
 
     <section class="About me">
@@ -50,5 +60,7 @@
 
     </section>
   </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./scripts/burger.js"></script>
 </body>
 </html>

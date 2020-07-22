@@ -1,0 +1,12 @@
+.underline {
+  display: flex;
+  width: 80%;
+  max-width: 940px;
+  margin: auto;
+  outline: 1px solid #828282;
+}
+@media all and (max-width: 767px) {
+  .underline {
+    display: none;
+  }
+}
