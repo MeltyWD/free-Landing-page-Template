@@ -4,3 +4,5 @@
 
 @import url(../block/root/root.css);
 @import url(../block/header/header.css);
+@import url(../block/content/content.css);
+@import url(../block/intro/intro.css);

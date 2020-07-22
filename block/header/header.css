@@ -6,7 +6,9 @@
 .header {
   position: relative;
   display: flex;
+  max-width: 1445px;
   width: 100%;
+  margin: auto;
   overflow: hidden;
   flex-direction: row;
   top: 0;
