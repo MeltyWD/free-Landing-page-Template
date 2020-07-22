@@ -1,0 +1,6 @@
+.header__lang-list {
+  padding-bottom: 6px;
+}
+.header__lang-list:not(:last-child) {
+  margin-right: 18px;
+}
