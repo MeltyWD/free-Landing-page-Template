@@ -1,0 +1,22 @@
+.portfolio__project {
+    object-fit: inherit;
+    margin: 0;
+}
+
+@media screen and (min-width: 1445px) {
+    .portfolio__project {
+        max-width: 936.24px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1444px) {
+    .portfolio__project {
+        max-width: 94.35%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .portfolio__project {
+        max-width: 84.2667%;
+    }
+}

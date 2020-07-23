@@ -9,6 +9,11 @@
 @import url(../block/content/content.css);
 @import url(../block/intro/intro.css);
 
+
+/*подключение стилей сектора "portfolio"*/
+@import url(../block/portfolio/portfolio.css);
+@import url(../block/portfolio/__project/_jpg/portfolio__project_ipg.css);
+
 /*section-title*/
 @import url('../block/section-title/section-title.css');
 @import url('../block/section-text/section-text.css');

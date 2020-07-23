@@ -1,0 +1,56 @@
+.portfolio__project_jpg {
+    padding-top: 47px;
+    
+}
+@media screen and (min-width: 1445px) {
+   .portfolio__project_jpg {
+    min-height: 510px;  
+    
+   }
+}
+
+@media (min-width: 993px) and (max-width: 1444px) {
+    .portfolio__project_jpg {
+     min-height: 35.29vw;  
+
+    }
+ }
+
+ @media (min-width: 376px) and (max-width: 992px) {
+    .portfolio__project_jpg {
+        min-height: 45.6vw;  
+        
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .portfolio__project_jpg {
+        min-height: 45.6vw;  
+        padding-top: 64.9px;
+    }
+}
+
+@media (min-width: 394px) and (max-width: 420px) {
+    .portfolio__project_jpg {
+        padding-top: 47.5px;  
+    }
+}
+
+@media (min-width: 384px) and (max-width: 393px) {
+    .portfolio__project_jpg {
+        padding-top: 48px;  
+    }
+}
+
+@media (min-width: 380px) and (max-width: 383px) {
+    .portfolio__project_jpg {
+        padding-top: 50px;  
+    }
+}
+
+
+@media (min-width: 377px) and (max-width: 379px) {
+    .portfolio__project_jpg {
+        padding-top: 55px;  
+    }
+}

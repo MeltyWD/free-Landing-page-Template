@@ -1,0 +1,31 @@
+@import url(./__project-conteiner/portfolio__project-conteiner.css);
+@import url(./__project/portfolio__project.css);
+@import url(./__project-link/portfolio__project-link.css);
+@import url(./__caption/portfolio__caption.css);
+
+.portfolio {
+max-width: 100%;
+background: #F6F6F6;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+@media screen and (min-width: 1445px) {
+    .portfolio {
+        padding-top: 112px;
+    }
+}
+
+@media (min-width: 1032px) and (max-width: 1444px) {
+    .portfolio {
+        padding-top: 7.815%;
+    }
+}
+
+@media screen and (max-width: 1031px) {
+    .portfolio {
+        padding-top: 81px;
+    }
+}
