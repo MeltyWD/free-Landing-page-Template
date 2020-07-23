@@ -1,0 +1,15 @@
+.intro__text {
+  width: 155px;
+  align-self: flex-end;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: medium;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+@media all and (max-width: 767px) {
+  .intro__text {
+    align-self: flex-start;
+    margin-top: 20px;
+  }
+}

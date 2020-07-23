@@ -1,0 +1,14 @@
+.intro__text-box {
+  display: flex;
+  justify-content: space-between;
+  width: 59%;
+  list-style: none;
+  overflow: hidden;
+  margin: 40px 0 50px;
+}
+@media all and (max-width: 767px) {
+  .intro__text-box {
+    flex-direction: column;
+    margin: 65px 0 36px;
+  }
+}

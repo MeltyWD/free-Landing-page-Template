@@ -1,4 +1,8 @@
 .intro__image {
-  max-width: 100%;
   width: 100%;
+}
+@media all and (max-width: 767px) {
+  .intro__image {
+    display: none;
+  }
 }

@@ -2,14 +2,17 @@
 @import url(./__menu-list/header__menu-list.css);
 @import url(./__menu-item/header__menu-item.css);
 @import url(./__menu-link/header__menu-link.css);
+@import url(./__burger/header__burger.css);
+@import url(./__burger-midline/header__burger-midline.css);
+
 
 .header {
   position: relative;
   display: flex;
+  justify-content: center;
   max-width: 1445px;
   width: 100%;
   margin: auto;
-  overflow: hidden;
   flex-direction: row;
   top: 0;
   z-index: 2;

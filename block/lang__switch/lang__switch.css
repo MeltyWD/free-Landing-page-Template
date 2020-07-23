@@ -1,0 +1,34 @@
+@import url(./__switch-item/lang__switch-item.css);
+@import url(./__switch-link/lang__switch-link.css);
+
+@import url(./__switch-item/_selected/lang__switch-item_selected.css);
+
+
+.lang__switch {
+  position: absolute;
+  right: 0;
+  top: 130px;
+  display: flex;
+  flex-direction: row;
+  text-align: end;
+  width: 65px;
+  height: 20px;
+  padding: 0;
+  list-style-type: none;
+  transform: rotate(-90deg);
+}
+
+@media all and (max-width: 767px) {
+  .lang__switch {
+    transform: rotate(90deg);
+    width: 144px;
+    height: 30px;
+    top: 75%;
+  }
+}
+
+@media all and (max-height: 370px) {
+  .lang__switch {
+    top: 65%;
+  }
+}

@@ -1,8 +1,10 @@
 .intro__title {
   width: 125px;
-  font-family: Gilroy-Bold;
   font-size: 47.3392px;
-  line-height: 59px;
+  line-height: 1.05;
+  font-weight: bold;
   white-space: pre-wrap;
   z-index: 1;
+  margin: 0;
+  padding: 0;
 }

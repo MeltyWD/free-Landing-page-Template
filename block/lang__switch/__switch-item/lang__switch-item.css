@@ -1,13 +1,12 @@
-.header__menu-link {
-  font-size: 18px;
-  line-height: 22px;
+.lang__switch-item {
+  font-size: 16px;
+  line-height: 20px;
   font-weight: bold;
-  text-decoration: none;
   color: #828282;
 }
 
 @media all and (max-width: 767px) {
-  .header__menu-link {
+  .lang__switch-item {
     font-size: 34px;
     line-height: 42px;
   }

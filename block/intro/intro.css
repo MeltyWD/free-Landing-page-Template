@@ -1,2 +1,19 @@
+@import url(./__text-box/intro__text-box.css);
 @import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
 @import url(./__image/intro__image.css);
+@import url(./__image/intro__image-mobile.css);
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 0 28px 104px;
+  max-width: 996px;
+  width: calc(100% - 56px);
+  margin: auto;
+}
+@media all and (max-width: 767px) {
+  .intro {
+    padding: 0 28px 83px;
+  }
+}
