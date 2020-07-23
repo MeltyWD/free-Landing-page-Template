@@ -1,18 +1,3 @@
-/*vendor*/
-@import url('../../vendor/normalize.css');
-@import url('../../vendor/font/Gilroy.css');
-/*section-title*/
-@import url('../section-title/section-title.css');
-@import url('../section-text/section-text.css');
-/*skills*/
-@import url('../skills/skills.css');
-@import url('../cards/cards.css');
-@import url('../card/card.css');
-@import url('../card/__title/card__title.css');
-@import url('../card/__image/card__image.css');
-@import url('../card/__rating/card__rating.css');
-@import url('../card/__star/card__star.css');
-
 .root {
   min-width: 320px;
   max-width: 1445px;
