@@ -25,3 +25,9 @@
 @import url('../block/card/__image/card__image.css');
 @import url('../block/card/__rating/card__rating.css');
 @import url('../block/card/__star/card__star.css');
+/*contacts*/
+@import url('../block/contacts/contacts.css');
+@import url('../block/contacts/__message/contacts__message.css');
+@import url('../block/contacts/__links/contacts__links.css');
+@import url('../block/contacts/__link/contacts__link.css');
+@import url('../block/contacts/__text/contacts__text.css');

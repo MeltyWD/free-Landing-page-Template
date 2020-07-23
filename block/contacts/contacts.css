@@ -1,0 +1,15 @@
+.contacts {
+  padding-top: 115px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .contacts {
+    padding-top: 82px;
+    padding-bottom: 90px;
+  }
+}

@@ -1,0 +1,22 @@
+.contacts__message {
+  width: 180px;
+  height: 42px;
+  border-radius: 2em;
+  background-color: #070707;
+  margin-top: 30px;
+  margin-bottom: 88px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 42px;
+  font-weight: bold;
+}
+
+@media (max-width: 425px) {
+  .contacts__message {
+    width: 316px;
+    margin-top: 39px;
+    margin-bottom: 48px;
+  }
+}
