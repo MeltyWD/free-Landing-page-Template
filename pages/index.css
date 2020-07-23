@@ -10,13 +10,13 @@
 @import url(../block/intro/intro.css);
 
 /*section-title*/
-@import url('../section-title/section-title.css');
-@import url('../section-text/section-text.css');
+@import url('../block/section-title/section-title.css');
+@import url('../block/section-text/section-text.css');
 /*skills*/
-@import url('../skills/skills.css');
-@import url('../cards/cards.css');
-@import url('../card/card.css');
-@import url('../card/__title/card__title.css');
-@import url('../card/__image/card__image.css');
-@import url('../card/__rating/card__rating.css');
-@import url('../card/__star/card__star.css');
+@import url('../block/skills/skills.css');
+@import url('../block/cards/cards.css');
+@import url('../block/card/card.css');
+@import url('../block/card/__title/card__title.css');
+@import url('../block/card/__image/card__image.css');
+@import url('../block/card/__rating/card__rating.css');
+@import url('../block/card/__star/card__star.css');

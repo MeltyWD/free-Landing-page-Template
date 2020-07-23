@@ -1,9 +1,9 @@
 .intro__text {
   width: 155px;
-  font-family: Gilroy-Medium;
   align-self: flex-end;
   font-size: 18px;
   line-height: 22px;
+  font-weight: medium;
   white-space: pre-wrap;
   z-index: 1;
 }
