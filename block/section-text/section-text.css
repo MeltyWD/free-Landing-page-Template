@@ -1,0 +1,10 @@
+.section-text {
+  margin: 0 auto;
+  max-width: 485px;
+  width: calc(100% - 60px);
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 45px;
+}
