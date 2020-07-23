@@ -12,7 +12,7 @@
 
 /*подключение стилей сектора "portfolio"*/
 @import url(../block/portfolio/portfolio.css);
-@import url(../block/portfolio/__project/_jpg/portfolio__project_ipg.css)
+@import url(../block/portfolio/__project/_jpg/portfolio__project_ipg.css);
 
 /*section-title*/
 @import url('../block/section-title/section-title.css');
