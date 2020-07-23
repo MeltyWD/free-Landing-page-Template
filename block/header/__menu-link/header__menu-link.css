@@ -4,6 +4,16 @@
   font-weight: bold;
   text-decoration: none;
   color: #828282;
+
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+.header__menu-link:hover {
+  background-size: 100% 2px;
 }
 
 @media all and (max-width: 767px) {
