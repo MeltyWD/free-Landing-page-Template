@@ -1,0 +1,13 @@
+.lang__switch-item {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+
+@media all and (max-width: 767px) {
+  .lang__switch-item {
+    font-size: 34px;
+    line-height: 42px;
+  }
+}

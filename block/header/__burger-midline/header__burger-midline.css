@@ -1,0 +1,14 @@
+@media all and (max-width: 767px) {
+  .header__burger-midline {
+    position: absolute;
+    background-color: #070707;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px
+  }
+  .header__burger.active .header__burger-midline {
+    transform: scale(0);
+    transition: .1s;
+  }
+}
