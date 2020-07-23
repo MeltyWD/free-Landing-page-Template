@@ -41,6 +41,16 @@
 }
 
 
+.intro__image_mobile {
+  display: none;
+}
+@media all and (max-width: 767px) {
+  .intro__image_mobile {
+    display: block;
+    width: 100%;
+  }
+}
+
 
 
 
@@ -58,7 +68,7 @@
     display: block;
     position: absolute;
     top: 68px;
-    right: -10px;
+    right: 40px;
     width: 33px;
     height: 20px;
     z-index: 4;

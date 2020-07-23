@@ -3,3 +3,11 @@
 @import url(./__text/intro__text.css);
 @import url(./__image/intro__image.css);
 
+.intro {
+  margin: 0 28px 104px;
+}
+@media all and (max-width: 767px) {
+  .intro {
+    margin: 0 28px 83px;
+  }
+}
