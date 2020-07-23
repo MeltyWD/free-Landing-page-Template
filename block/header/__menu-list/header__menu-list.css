@@ -1,7 +1,7 @@
 .header__menu-list {
   display: flex;
   width: 100%;
-  max-width: 940px;
+  max-width: 996px;
   justify-content: space-between;
   list-style-type: none;
   padding: 0;

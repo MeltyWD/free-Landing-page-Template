@@ -1,0 +1,13 @@
+@import url(./__text/aboutme__text.css);
+
+
+.aboutme {
+  padding: 120px 0 106px;
+  width: 100%;
+  background-color: #F6F6F6;
+}
+@media all and (max-width: 767px) {
+  .aboutme {
+    padding: 81px 0 76px
+  }
+}

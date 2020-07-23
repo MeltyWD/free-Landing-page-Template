@@ -1,7 +1,7 @@
 .underline {
   display: flex;
   width: 100%;
-  max-width: 940px;
+  max-width: 996px;
   margin: auto;
   outline: 1px solid #828282;
 }
