@@ -2,7 +2,12 @@
   min-width: 320px;
   max-width: 1445px;
   margin: 0 auto;
-  font-family: 'Gilroy-Bold', Arial, sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   background-color: #FFFFFF;
   color: #070707;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }

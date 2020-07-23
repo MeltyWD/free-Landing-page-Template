@@ -1,0 +1,15 @@
+.portfolio__project-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    color: #070707;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+}
+
+.portfolio__project-link:hover {
+    opacity: .8;
+    transition: opacity 1s linear;
+}

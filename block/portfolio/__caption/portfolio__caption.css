@@ -1,0 +1,21 @@
+.portfolio__caption {
+    
+}
+
+@media screen and (min-width: 1445px) {
+    .portfolio__caption {
+        padding-top: 44.83px;
+    }
+}
+
+@media (min-width: 732px) and (max-width: 1444px) {
+    .portfolio__caption {
+        padding-top: 6.857%;
+    }
+}
+
+@media screen and (max-width: 731px) {
+    .portfolio__caption{
+        padding-top: 35px;
+    }
+}

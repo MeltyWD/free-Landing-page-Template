@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy';
     src: url('Gilroy-Medium.eot');
     src: local('Gilroy Medium'), local('Gilroy-Medium'),
         url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy';
     src: url('Gilroy-Bold.eot');
     src: local('Gilroy Bold'), local('Gilroy-Bold'),
         url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),

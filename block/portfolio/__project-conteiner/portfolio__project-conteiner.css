@@ -1,0 +1,26 @@
+.portfolio__project-conteiner {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@media screen and (min-width: 1445px) {
+    .portfolio__project-conteiner{
+        padding-bottom: 99.08px;
+    }
+}
+
+@media (min-width: 1138px) and (max-width: 1444px) {
+    .portfolio__project-conteiner {
+        padding-bottom: 6.857%;
+    }
+}
+
+@media screen and (max-width: 1137px) {
+    .portfolio__project-conteiner{
+        padding-bottom: 77.97px;
+    }
+}
