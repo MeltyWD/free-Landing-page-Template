@@ -74,11 +74,12 @@ $(document).ready(function(){ //Вызов функции по загрузке 
 // Сдвиг кнопки меню в верх при скроле
 // p.s сам сделал =(
 $(document).ready(function(){
-  var paralax = document.getElementById("paralax");
+  var burger_scroll = document.getElementById("header__burger-circle");
+  burger_scroll.style.top = 48 + pageYOffset * -0.2 + "px";
   $(window).scroll(function(){
-    paralax.style.top = 48 + pageYOffset * -0.2 + "px";
-    if (paralax.style.top < "0px") {
-      paralax.style.top = "0px"
+    burger_scroll.style.top = 48 + pageYOffset * -0.2 + "px";
+    if (burger_scroll.style.top < "0px") {
+      burger_scroll.style.top = "0px"
     }
   });
 });
