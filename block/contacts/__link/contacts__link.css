@@ -3,5 +3,5 @@
   width: 40px;
 }
 .contacts__link:hover {
-  opacity: 0.8;
+  filter: invert(52%) sepia(6%) saturate(17%) hue-rotate(335deg) brightness(97%) contrast(86%);
 }
