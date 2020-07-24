@@ -15,9 +15,3 @@
     margin: 66px 26px 150px;
   }
 }
-/* для коротких по высоте дисплеев */
-@media all and (max-height: 370px) {
-  .header__menu-list {
-    margin: 10px 26px 50px ;
-  }
-}

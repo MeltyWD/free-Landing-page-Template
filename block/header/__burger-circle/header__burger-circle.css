@@ -1,0 +1,24 @@
+.header__burger-circle {
+  display: none;
+  position: absolute;
+  top: 48px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+  justify-content: center;
+  align-items: center;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%); /* ff3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(55%, rgba(255,255,255,1)), color-stop(70%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0))); /* safari4+,chrome */
+  background:-webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%); /* safari5.1+,chrome10+ */
+  background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%); /* opera 11.10+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%); /* ie10+ */
+  background:radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF',GradientType=1 ); /* ie6-9 */
+}
+
+@media all and (max-width: 767px) {
+  .header__burger-circle {
+    display: flex;
+  }
+}
