@@ -5,6 +5,7 @@
 @import url(./__image/intro__image-mobile.css);
 
 .intro {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 0 28px 104px;

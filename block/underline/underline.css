@@ -2,8 +2,9 @@
   display: flex;
   width: 100%;
   max-width: 996px;
+  height: 87px;
   margin: auto;
-  outline: 1px solid #828282;
+  border-bottom: 2px solid #828282;
 }
 @media all and (max-width: 767px) {
   .underline {

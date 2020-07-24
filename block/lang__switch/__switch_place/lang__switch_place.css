@@ -1,0 +1,22 @@
+.lang__switch-place_header {
+  display: none;
+  right: -20px;
+  width: 144px;
+  height: 30px;
+}
+
+.lang__switch-place_intro {
+  display: flex;
+  right: 10px;
+  top: 75px;
+  width: 65px;
+  height: 20px;
+}
+@media all and (max-width: 767px) {
+  .lang__switch-place_header {
+    display: flex;
+  }
+  .lang__switch-place_intro {
+    display: none;
+  }
+}

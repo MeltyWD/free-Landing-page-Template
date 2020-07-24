@@ -1,7 +1,10 @@
 .contacts__link {
   height: 40px;
   width: 40px;
+  transition: all ease .5s;
 }
 .contacts__link:hover {
   filter: invert(52%) sepia(6%) saturate(17%) hue-rotate(335deg) brightness(97%) contrast(86%);
+  transition: .2s;
+  transform: scale(1.1);
 }

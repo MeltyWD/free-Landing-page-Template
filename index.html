@@ -9,20 +9,20 @@
   <meta name="keywords" content="landing page">
   <meta name="author" content="アンドレイ, Анастасия Катанова, Лаззат Мейрамбекова">
 </head>
-<body class="root">
+<body class="root" id="home">
   <header class="header">
     <div class="header__burger">
       <span class="header__burger-midline"></span>
     </div>
-    <nav class="header__menu">
+    <nav class="header__menu" id="#menu-center">
       <ul class="header__menu-list">
-        <li><a class="header__menu-link header__menu-link_selected" href="#">Home</a></li>
-        <li><a class="header__menu-link" href="#">About me</a></li>
-        <li><a class="header__menu-link" href="#">Skills</a></li>
-        <li><a class="header__menu-link" href="#">Portfolio</a></li>
-        <li><a class="header__menu-link" href="#">Contacts</a></li>
+        <li><a class="header__menu-link header__menu-link_selected" href="#home">Home</a></li>
+        <li><a class="header__menu-link" href="#aboutme">About me</a></li>
+        <li><a class="header__menu-link" href="#skills">Skills</a></li>
+        <li><a class="header__menu-link" href="#portfolio">Portfolio</a></li>
+        <li><a class="header__menu-link" href="#contacts">Contacts</a></li>
       </ul>
-      <ul class="lang__switch">
+      <ul class="lang__switch lang__switch-place_header">
         <li class="lang__switch-item"><a class="lang__switch-link" href="#">RU</a></li>
         <li class="lang__switch-item lang__switch-item_selected">&nbsp;|&nbsp;</li>
         <li class="lang__switch-item"><a class="lang__switch-link lang__switch-item_selected" href="#">ENG</a></li>
@@ -37,12 +37,17 @@
         <h1 class="intro__title">Denis Novik</h1>
         <p class="intro__text">UX | UI designer
 24 years old, Minsk</p>
+        <ul class="lang__switch lang__switch-place_intro">
+          <li class="lang__switch-item"><a class="lang__switch-link" href="#">RU</a></li>
+          <li class="lang__switch-item lang__switch-item_selected">&nbsp;|&nbsp;</li>
+          <li class="lang__switch-item"><a class="lang__switch-link lang__switch-item_selected" href="#">ENG</a></li>
+        </ul>
       </div>
         <img class="intro__image" src="./images/Intro/Intro__image.jpg" alt="Изображение интро">
         <img class="intro__image-mobile" src="./images/Intro/intro__image_mobile.jpg" alt="Изображение интро">
     </section>
 
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
       <h2 class="section-title">About me</h2>
       <p class="section-text aboutme__text">Hi, I'm Denis – UX/UI designer from Minsk.
 I'm interested in design and everything connected with it.</p>
@@ -53,7 +58,7 @@ with wonderful people.</p>
     </section>
 
 
-    <section class="skills">
+    <section class="skills" id="skills">
       <h2 class="section-title">Skills</h2>
       <p class="section-text">I work in such programs as</p>
       <div class="cards">
@@ -105,7 +110,7 @@ with wonderful people.</p>
     </section>
 
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <h2 class="section-title">Portfolio</h2>
       <figure class="portfolio__project-conteiner">
         <img class="portfolio__project portfolio__project_jpg" src="./images/portfolio/S8.jpg" alt="Online fashion store">
@@ -121,7 +126,7 @@ with wonderful people.</p>
       </figure>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <h2 class="section-title">Contacts</h2>
       <p class="section-text">Want to know more or just chat? You are welcome!</p>
       <a href="#" class="contacts__message">Send message</a>
