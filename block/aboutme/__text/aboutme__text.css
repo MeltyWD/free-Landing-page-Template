@@ -1,8 +1,0 @@
-.aboutme__text {
-  white-space: pre-wrap;
-}
-@media all and (max-width: 425px) {
-  .aboutme__text {
-    white-space: normal;
-  }
-}

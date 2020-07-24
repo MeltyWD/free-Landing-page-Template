@@ -7,4 +7,11 @@
   font-weight: normal;
   text-align: center;
   margin-top: 45px;
+  white-space: pre-wrap;
+}
+
+@media all and (max-width: 425px) {
+  .section-text {
+    white-space: normal;
+  }
 }
