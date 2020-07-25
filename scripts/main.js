@@ -10,45 +10,46 @@ $(document).ready(function() {
   });
 });
 
-// Плавный скролл
-$(document).ready(function() {
-  $(document).on("scroll", onScroll);
-
-  $('a[href^="#"]').on('click', function (e) {
-      e.preventDefault();
-      $(document).off("scroll");
-
-      $('a').each(function () {
-          $(this).removeClass('active');
-      })
-      $(this).addClass('active');
-
-      var target = this.hash,
-          menu = target;
-      $target = $(target);
-      $('html, body').stop().animate({
-          'scrollTop': $target.offset().top+2
-      }, 500, 'swing', function () {
-          window.location.hash = target;
-          $(document).on("scroll", onScroll);
-      });
-  });
+//Выделение секции в меню при загрузке
+$(document).ready(function(){
+  var $sections = $('section');
+  $sections.each(function(i,el){
+    var top  = $(el).offset().top-250;
+    var bottom = top +$(el).height();
+    var scroll = $(window).scrollTop();
+    var id = $(el).attr('id');
+    if( scroll > top && scroll < bottom){
+      $('a.header__menu-link_selected').removeClass('header__menu-link_selected');
+      $('a[href="#'+id+'"]').addClass('header__menu-link_selected');
+    }
+  })
+});
+//Выделение секции в меню при скроле
+jQuery(window).scroll(function(){
+  var $sections = $('section');
+  $sections.each(function(i,el){
+    var top  = $(el).offset().top-250;
+    var bottom = top +$(el).height();
+    var scroll = $(window).scrollTop();
+    var id = $(el).attr('id');
+    if( scroll > top && scroll < bottom){
+      $('a.header__menu-link_selected').removeClass('header__menu-link_selected');
+      $('a[href="#'+id+'"]').addClass('header__menu-link_selected');
+    }
+  })
 });
 
-function onScroll(event){
-  var scrollPos = $(document).scrollTop();
-  $('#menu-center a').each(function () {
-      var currLink = $(this);
-      var refElement = $(currLink.attr("href"));
-      if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-          $('#menu-center ul li a').removeClass("active");
-          currLink.addClass("active");
-      }
-      else{
-          currLink.removeClass("active");
-      }
-  });
-}
+// Плавный скролл
+$("nav").on("click","a", function (event) {
+  // исключаем стандартную реакцию браузера
+  event.preventDefault();
+  // получем идентификатор блока из атрибута href
+  var id  = $(this).attr('href'),
+  // находим высоту, на которой расположен блок
+      top = $(id).offset().top;
+  // анимируем переход к блоку, время: 500 мс
+  $('body,html').animate({scrollTop: top}, 500);
+});
 
 // Сдвиг кнопки меню в верх при скроле
 // p.s сам сделал =(
@@ -62,3 +63,17 @@ $(document).ready(function(){
     }
   });
 });
+// Отключение меню при клике на ссылку
+function addClass() {
+  var id = $(this).attr('href');
+  $("a").removeClass('active');
+  $("div").removeClass('active');
+  $(this).addClass('active');
+  $(id).addClass('active');
+}
+
+var nodeList = document.querySelectorAll('a');
+
+for( var i = 0; i < nodeList.length; i++) {
+  nodeList[i].addEventListener('click', addClass);
+}
