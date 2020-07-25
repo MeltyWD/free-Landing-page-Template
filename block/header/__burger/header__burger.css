@@ -40,12 +40,12 @@
     bottom: 0;
   }
   .header__burger.active:before {
-    top: 9px;
+    top: 8px;
     transition: .1s;
     animation: rotate1 .2s ease .2s forwards;
   }
   .header__burger.active:after {
-    bottom: 9px;
+    bottom: 8px;
     transition: .1s;
     animation: rotate2 .3s ease .2s forwards;
   }
